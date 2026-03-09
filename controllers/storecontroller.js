@@ -5,4 +5,4 @@ const showProducts = async (req,res) => {
     res.render("store/products",{products})
 }
 
-export default showProducts;
+export {showProducts}
